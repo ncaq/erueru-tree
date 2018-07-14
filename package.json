@@ -1,0 +1,38 @@
+{
+  "name": "erueru-tree",
+  "version": "1.0.0",
+  "description": "immutable persistent tree",
+  "main": "./lib/main.js",
+  "types": "./lib/main.d.ts",
+  "author": "ncaq",
+  "license": "MIT",
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "testMatch": [
+      "**/__tests__/*.+(ts|tsx|js)"
+    ]
+  },
+  "dependencies": {
+    "immutable": "^4.0.0-rc.9"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "jest": "^23.3.0",
+    "ts-jest": "^23.0.0",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "2.8"
+  }
+}
