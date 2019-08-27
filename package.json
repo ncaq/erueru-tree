@@ -28,11 +28,11 @@
     "immutable": "^4.0.0-rc.9"
   },
   "devDependencies": {
-    "@types/jest": "^23.1.4",
-    "jest": "^23.3.0",
-    "ts-jest": "^23.0.0",
-    "tslint": "^5.10.0",
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.19.0",
     "tslint-config-prettier": "^1.13.0",
-    "typescript": "2.8"
+    "typescript": "3.5.3"
   }
 }
